@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+header{
+    padding: 10px;
+    box-shadow: silver 0 0 10px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+header h1{
+    -webkit-text-stroke: blue .3px;
+}
+nav{
+    box-shadow: silver 0px 10px 15px;
+    margin-top: -19px;
+}
+nav ul {
+    list-style: none;
+    border: 1px silver solid;
+    height: 100%;
+}
+nav ul li{
+    font-size: large;
+    text-align: center;
+    padding: 8px;
+    width: 150px;    
+}
+section{
+    display: flex;
+}
+.frame{
+    display: block;
+    width: 100%;
+}
+.frame1 , .frame2 ,.frame3,.frame4.frame5{
+    /* max-width: fit-content; */
+    margin: 40px;
+    /* display: flex; */
+    justify-content:start;
+    align-items: flex-start;
+}
+.frame1 iframe{
+    width: 100%;
+    height: 50vh;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.frame2 iframe{
+    width: 100%;
+    height: 50vh;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.frame3 iframe{
+    width: 100%;
+    height: 50vh;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.frame4 iframe{
+    width: 100%;
+    height: 50vh;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.frame5 iframe{
+    width: 100%;
+    height: 50vh;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.frame1 .content{
+    margin: 100px 0;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.frame2 .content{
+    margin: 100px 0;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.frame3 .content{
+    margin: 100px 0;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.frame4 .content{
+    margin: 100px 0;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.frame5 .content{
+    margin: 100px 0;
+    padding: 0 20px;
+    font-size: 20px;
+
+    text-align: center;
+}
+.frame1 .content p,a{
+    margin: 50px 0;
+}
+.frame2 .content p,a{
+    margin: 50px 0;
+}
+.frame3 .content p,a{
+    margin: 50px 0;
+}
+.frame4 .content p,a{
+    margin: 50px 0;
+}
+.frame5 .content p,a{
+    margin: 50px 0;
+}
+.frame1  a{
+    background: skyblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: skyblue 2px solid;
+    text-decoration: none;
+}
+.frame2 a{
+    background: skyblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: skyblue 2px solid;
+    text-decoration: none;
+}
+.frame3 a{
+    background: skyblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: skyblue 2px solid;
+    text-decoration: none;
+}
+.frame4 a{
+    background: skyblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: skyblue 2px solid;
+    text-decoration: none;
+}
+.frame5 a{
+    background: skyblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: skyblue 2px solid;
+    text-decoration: none;
+}
+:is(.frame1,.frame2,.frame3,.frame4,.frame5) a:hover{
+    transform: scale(1);
+    color: skyblue;
+    background-color: #fff;
+}
